@@ -5,25 +5,22 @@
 
 using std::string;
 
-namespace Physics{
-	namespace Shapes{
-		class Coordinate{
-			private:
-				int x;
-				int y;
+class Coordinate{
+	private:
+		int x;
+		int y;
 
-			public:
-				Coordinate();
-				Coordinate(int x, int y);
-				int GetX();
-				int GetY();
-				void SetX(int x);
-				void SetY(int y);
-				string ToString();
-				bool Equals(Coordinate* coordinates);
-		};
-	}
-}
+	public:
+		Coordinate();
+		Coordinate(int x, int y);
+		int GetX();
+		int GetY();
+		void SetX(int x);
+		void SetY(int y);
+		string ToString();
+		bool Equals(Coordinate* coordinates);
+};
+
 
 
 

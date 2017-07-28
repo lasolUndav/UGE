@@ -1,8 +1,6 @@
 #include "Coordinate.h"
 #include <cstdlib>
 
-using namespace Physics::Shapes;
-
 int Coordinate::GetX(){
 	return this->x;
 }
