@@ -7,16 +7,16 @@ using std::string;
 
 class Coordinate{
 	private:
-		int x;
-		int y;
+		float x;
+		float y;
 
 	public:
 		Coordinate();
-		Coordinate(int x, int y);
-		int GetX();
-		int GetY();
-		void SetX(int x);
-		void SetY(int y);
+		Coordinate(float x, float y);
+		float GetX();
+		float GetY();
+		void SetX(float x);
+		void SetY(float y);
 		string ToString();
 		bool Equals(Coordinate* coordinates);
 };

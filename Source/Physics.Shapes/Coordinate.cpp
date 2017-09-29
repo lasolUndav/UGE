@@ -1,19 +1,19 @@
 #include "Coordinate.h"
 #include <cstdlib>
 
-int Coordinate::GetX(){
+float Coordinate::GetX(){
 	return this->x;
 }
 
-int Coordinate::GetY(){
+float Coordinate::GetY(){
 	return this->y;
 }
 
-void Coordinate::SetX(int x){
+void Coordinate::SetX(float x){
 	this->x = x;
 }
 
-void Coordinate::SetY(int y){
+void Coordinate::SetY(float y){
 	this->y = y;
 }
 
