@@ -1,20 +1,16 @@
 #include "Coordinate.h"
+#include "Size.h"
 
-class Rectangle {
+class Rectangle{
 private:
-	Coordinate p;
-	struct size{
-		int height;
-		int width;
-	}
+	Coordinate* point;
+	Size* size;
+
 public:
-	Rectangle(Coordinate p, float heigh, float width);
-	int GetP();
-	int GetHeight();
-	int GetWidth();
-	void SetP();
-	void SetHeight();
-	void SetWidth();
-	bool Equals(Coordinate* coordinates);
+	Rectangle(Coordinate* point, Size* size);
+	Coordinate* GetPoint()const;
+	Size* GetSize()const;
+	void SetPoint(Coordinate* point);
+	void SetSize(Size* size);
 };
 

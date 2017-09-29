@@ -13,8 +13,8 @@ class Coordinate{
 	public:
 		Coordinate();
 		Coordinate(float x, float y);
-		float GetX();
-		float GetY();
+		float GetX()const;
+		float GetY()const;
 		void SetX(float x);
 		void SetY(float y);
 		string ToString();

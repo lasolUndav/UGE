@@ -1,11 +1,11 @@
 #include "Coordinate.h"
 #include <cstdlib>
 
-float Coordinate::GetX(){
+float Coordinate::GetX()const{
 	return this->x;
 }
 
-float Coordinate::GetY(){
+float Coordinate::GetY()const{
 	return this->y;
 }
 
